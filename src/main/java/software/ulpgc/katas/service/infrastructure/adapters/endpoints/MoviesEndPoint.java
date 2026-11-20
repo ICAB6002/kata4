@@ -24,7 +24,7 @@ public class MoviesEndPoint implements EndPoint {
             String json = useCase.execute(year);
             context.status(200).contentType("application/json").result(json);
         } catch (NumberFormatException e) {
-            context.status(400).result("El año debe ser un número: " + year);
+            context.status(400).contentType("text/plain; charset=utf-8").result("El año debe ser un número: " + year);
         }
     }
 }
