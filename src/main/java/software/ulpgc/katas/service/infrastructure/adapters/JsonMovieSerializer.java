@@ -1,4 +1,4 @@
-package software.ulpgc.katas.service.infracstruture.adapters;
+package software.ulpgc.katas.service.infrastructure.adapters;
 
 import com.google.gson.Gson;
 import software.ulpgc.katas.service.application.domain.Movie;
