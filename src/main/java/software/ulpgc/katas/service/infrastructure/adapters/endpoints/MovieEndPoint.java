@@ -22,7 +22,8 @@ public class MovieEndPoint implements EndPoint {
     public void execute() {
         String id = context.pathParam("id");
         try {
-            context.contentType("application/json").result(useCase.execute(id));
+            String json = useCase.execute(id);
+            context.status(200).contentType("application/json").result(json);
         } catch (NumberFormatException e) {
             context.status(400).result("El id debe ser un número: " + id);
         } catch (MovieNotFoundException e) {
