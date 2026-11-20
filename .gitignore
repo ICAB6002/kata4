@@ -1,0 +1,37 @@
+### Compilación y binarios ###
+target/
+out/
+build/
+bin/
+*.class
+*.jar
+*.war
+*.zip
+*.exe
+
+
+!.mvn/wrapper/maven-wrapper.jar
+
+### Temporales ###
+*.log
+*.tmp
+.kotlin
+
+### IntelliJ IDEA (configuración local con rutas personales) ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### Eclipse / NetBeans / VS Code ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.vscode/
+/nbproject/private/
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
