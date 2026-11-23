@@ -149,7 +149,7 @@ Año no válido: 'abc'. Debe ser un número entero
 
 ## Vídeo
 
-Enlace al vídeo (máximo 7 minutos): PENDIENTE
+Enlace al vídeo (máximo 7 minutos): https://youtu.be/X18xhnYT7Ww
 
 ## Cómo he repetido la kata
 
